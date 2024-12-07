@@ -304,7 +304,7 @@
     <value>A base, slot ({X},{Y})</value>
   </data>
   <data name="LC_LOC_COORD_PALBOX" xml:space="preserve">
-    <value>Palbox, tab {Tab} at ({X},{Y})</value>
+    <value>帕鲁终端, 目录页 {Tab} 在 ({X},{Y})</value>
   </data>
   <data name="LC_LOC_COORD_PARTY" xml:space="preserve">
     <value>Party, slot {SlotNum}</value>
@@ -360,7 +360,7 @@
     <value>基地</value>
   </data>
   <data name="LC_PAL_LOC_CAPTURED" xml:space="preserve">
-    <value>已捕获</value>
+    <value>捕获</value>
   </data>
   <data name="LC_PAL_LOC_COUNT" xml:space="preserve">
     <value>{Count} in {LocType}</value>
