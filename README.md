@@ -10,6 +10,10 @@ Pal Calc will find _the_ optimal path using your own pals, will tell you where t
 - Server saves can be added manually after downloading the save files to your computer
 - If no save file is available, you can add "fake saves" to it and manually enter your pals using the built-in Save Inspector
 
+
+![Pal en-cn](https://i0.hdslb.com/bfs/new_dyn/watermark/3b0bb13003232a4439695cceb1dd22eb346375781.png@1192w.avif)
+
+
 No more spreadsheets!
 
 No more fumbling between bases and sorting pals!
