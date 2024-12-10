@@ -136,10 +136,10 @@
     <value>分配到基地</value>
   </data>
   <data name="LC_BASE_LABEL" xml:space="preserve">
-    <value>基地 ({基地名字})</value>
+    <value>基地 ({BaseName})</value>
   </data>
   <data name="LC_BREEDING_TIME" xml:space="preserve">
-    <value>繁殖时间 (分钟)</value>
+    <value>繁殖时间 (Mins)</value>
   </data>
   <data name="LC_BREEDING_TIME_DESC" xml:space="preserve">
     <value>产生一个蛋所需的平均时间，用于估计生成具有特定属性的帕鲁需要多长时间。
@@ -230,7 +230,7 @@
     <value>名字</value>
   </data>
   <data name="LC_DELETE_PAL_TARGET_MSG" xml:space="preserve">
-    <value>删除 {PalName}此条目吗?</value>
+    <value>删除{PalName}此条目吗?</value>
   </data>
   <data name="LC_DELETE_PAL_TARGET_TITLE" xml:space="preserve">
     <value>删除帕鲁目标</value>
@@ -277,7 +277,7 @@
     <value>公会 '{GuildName}'</value>
   </data>
   <data name="LC_INCLUDE_CUSTOM_PALS" xml:space="preserve">
-    <value>在自定义容器中包含帕鲁</value>
+    <value>包含在自定义容器中帕鲁</value>
   </data>
   <data name="LC_INCLUDE_PALS_AT_BASE" xml:space="preserve">
     <value>包括基地的帕鲁</value>
@@ -289,10 +289,10 @@
     <value>检查</value>
   </data>
   <data name="LC_ITL_LABEL" xml:space="preserve">
-    <value>中文 (简体)</value>
+    <value>中文-cn</value>
   </data>
   <data name="LC_LANGUAGE" xml:space="preserve">
-    <value>语言</value>
+    <value>Language</value>
   </data>
   <data name="LC_LANG_CHANGED_RESTART" xml:space="preserve">
     <value>必须重新启动Pal Calc才能完成新语言的应用.</value>
@@ -304,22 +304,22 @@
     <value>A base, slot ({X},{Y})</value>
   </data>
   <data name="LC_LOC_COORD_PALBOX" xml:space="preserve">
-    <value>帕鲁终端, 目录页 {Tab} 在 ({X},{Y})</value>
+    <value>帕鲁终端, 目录页 {Tab} 在 横 竖 ({X},{Y})</value>
   </data>
   <data name="LC_LOC_COORD_PARTY" xml:space="preserve">
     <value>Party, slot {SlotNum}</value>
   </data>
   <data name="LC_LOC_COORD_VIEWING_CAGE" xml:space="preserve">
-    <value>Viewing cage at ({X},{Y})</value>
+    <value>观察笼位于 ({X},{Y})</value>
   </data>
   <data name="LC_LOC_OWNED_BY" xml:space="preserve">
-    <value>Owned by {Owner}</value>
+    <value>拥有者 {Owner}</value>
   </data>
   <data name="LC_LOC_PALBOX_TAB" xml:space="preserve">
-    <value>Tab {Tab}</value>
+    <value>目录 {Tab}</value>
   </data>
   <data name="LC_MANUAL_SAVE_ALREADY_REGISTERED" xml:space="preserve">
-    <value>Viewing cage at.</value>
+    <value>The selected file has already been registered.</value>
   </data>
   <data name="LC_MANUAL_SAVE_EXTENSION_LBL" xml:space="preserve">
     <value>Level save file</value>
@@ -342,7 +342,7 @@
     <value>新品</value>
   </data>
   <data name="LC_NO_TRAITS" xml:space="preserve">
-    <value>没有被动语态</value>
+    <value>没有被动词条</value>
   </data>
   <data name="LC_OPEN_IN_FILE_EXPLORER" xml:space="preserve">
     <value>在资源管理器中打开</value>
@@ -360,7 +360,7 @@
     <value>基地</value>
   </data>
   <data name="LC_PAL_LOC_CAPTURED" xml:space="preserve">
-    <value>捕获</value>
+    <value>需捕获</value>
   </data>
   <data name="LC_PAL_LOC_COUNT" xml:space="preserve">
     <value>{Count} in {LocType}</value>
@@ -499,7 +499,7 @@
     <value>选择的保存文件无效!</value>
   </data>
   <data name="LC_SAVE_GAME_LBL" xml:space="preserve">
-    <value>{PlayerName} 在 {WorldName} 的第 {DayNumber} 天达到 {PlayerLevel} 级</value>
+    <value>{PlayerName} 在 {PlayerLevel} 的第 {WorldName} 天达到 {DayNumber} 级</value>
   </data>
   <data name="LC_SAVE_GAME_LBL_NO_METADATA" xml:space="preserve">
     <value>{GameId} (无法读取元数据)</value>
@@ -535,7 +535,7 @@
     <value>Xbox</value>
   </data>
   <data name="LC_SAVE_LOCATION_XBOX_INSTALL_1" xml:space="preserve">
-    <value>未找到 Xbox 存档。Palworld 必须通过</value>
+    <value>No Xbox saves were found. Palworld must be installed on the PC through the</value>
   </data>
   <data name="LC_SAVE_LOCATION_XBOX_INSTALL_2" xml:space="preserve">
     <value>Xbox app / Game Pass.</value>
@@ -611,7 +611,7 @@
 较高的值会线性影响所需的时间，具体取决于拥有的 pal 类型的数量.</value>
   </data>
   <data name="LC_SOLVER_STATUS_BREEDING" xml:space="preserve">
-    <value>繁殖步骤 {StepNum}，计算 {WorkSize} 对的子伙伴和概率</value>
+    <value>繁殖步骤 {StepNum}, 计算 {WorkSize} 对的子帕鲁和概率</value>
   </data>
   <data name="LC_SOLVER_STATUS_FINISHED" xml:space="preserve">
     <value>已完成 (took {Duration})</value>
@@ -620,7 +620,7 @@
     <value>已处理的 {NumProcessed} / {WorkSize} 繁殖配对</value>
   </data>
   <data name="LC_SOLVER_STEP_STATUS_DONE" xml:space="preserve">
-    <value>总共处理了{TotalSize}繁殖配对</value>
+    <value>总共处理了 {TotalSize} 繁殖配对</value>
   </data>
   <data name="LC_SOURCE_PALS" xml:space="preserve">
     <value>来源帕鲁</value>
@@ -641,7 +641,7 @@
     <value>{NumRandom} 随机</value>
   </data>
   <data name="LC_TRAITS_COUNT_UNRECOGNIZED" xml:space="preserve">
-    <value>{NumUnrecognized} 未知</value>
+    <value>{NumUnrecognized} 被忽略的</value>
   </data>
   <data name="LC_TRAITS_PRESETS" xml:space="preserve">
     <value>预设</value>
@@ -689,10 +689,10 @@
     <value>有可用更新!</value>
   </data>
   <data name="LC_VIEWING_CAGE_LABEL" xml:space="preserve">
-    <value>观赏笼 ({CageId})</value>
+    <value>Viewing Cage ({CageId})</value>
   </data>
   <data name="LC_WINDOW_TITLE" xml:space="preserve">
-    <value>Pal Calc</value>
+    <value>Pal Calc 由b站：在这521赌上我的一切 翻译</value>
   </data>
   <data name="LV_SOLVER_STATUS_INITIALIZING" xml:space="preserve">
     <value>初始化</value>
