@@ -11,8 +11,6 @@ Pal Calc will find _the_ optimal path using your own pals, will tell you where t
 - If no save file is available, you can add "fake saves" to it and manually enter your pals using the built-in Save Inspector
 
 
-![Pal en-cn](https://api.yhpop.com/pc/pal.png)
-
 
 No more spreadsheets!
 
